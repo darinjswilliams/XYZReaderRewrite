@@ -62,8 +62,6 @@ public class ArticleListActivity extends AppCompatActivity implements
         ((CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar_layout)).
                 setTitle(getString(R.string.no_name));
 
-//        mSwipeRefreshLayout = (SwipeRefreshLayout) findViewById(R.id.swipe_refresh_layout);
-
 
         mRecyclerView = (RecyclerView) findViewById(R.id.recycler_view);
         getLoaderManager().initLoader(0, null, this);
@@ -119,8 +117,6 @@ public class ArticleListActivity extends AppCompatActivity implements
         int columnCount = getResources().getInteger(R.integer.list_column_count);
         StaggeredGridLayoutManager sglm =
                 new StaggeredGridLayoutManager(columnCount, StaggeredGridLayoutManager.VERTICAL);
-//        LinearLayoutManager linearLayoutManager = new GridLayoutManager(getBaseContext(), columnCount, RecyclerView.VERTICAL,
-//                false);
 
         mRecyclerView.setLayoutManager(sglm);
         mRecyclerView.setAdapter(adapter);

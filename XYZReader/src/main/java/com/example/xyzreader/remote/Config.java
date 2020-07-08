@@ -2,6 +2,9 @@ package com.example.xyzreader.remote;
 
 import android.util.Log;
 
+import com.example.xyzreader.R;
+import com.google.android.material.snackbar.Snackbar;
+
 import java.net.MalformedURLException;
 import java.net.URL;
 
@@ -16,6 +19,7 @@ public class Config {
         } catch (MalformedURLException ignored) {
             // TODO: throw a real error
             Log.e(TAG, "Please check your internet connection.");
+
         }
 
         BASE_URL = url;

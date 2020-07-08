@@ -8,7 +8,7 @@
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBarLayout"
         android:layout_width="match_parent"
-        android:elevation="6dp"
+        android:elevation="4dp"
         android:background="?colorPrimaryDark"
         android:layout_height="168dp">
 

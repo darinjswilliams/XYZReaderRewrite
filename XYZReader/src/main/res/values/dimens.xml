@@ -9,4 +9,10 @@
     <dimen name="fab_press_translation_z">8dp</dimen>
     <dimen name="fab_margin">24dp</dimen>
 
+    <dimen name="image_up_arrow_size">56dp</dimen>
+    <dimen name="padding_56dp">56dp</dimen>
+    <dimen name="padding_168dp">168dp</dimen>
+    <dimen name="padding_28dp">28dp</dimen>
+    <dimen name="padding_16dp">16dp</dimen>
+
 </resources>

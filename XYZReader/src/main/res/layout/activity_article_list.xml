@@ -1,5 +1,7 @@
-<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_article_id"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -7,14 +9,14 @@
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:background="?colorPrimaryDark"
-        android:layout_height="168dp">
+        android:layout_height="@dimen/padding_168dp">
 
         <com.google.android.material.appbar.CollapsingToolbarLayout
             android:id="@+id/collapsing_toolbar_layout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:title=""
-            app:expandedTitleMargin="56dp"
+            app:expandedTitleMargin="@dimen/padding_56dp"
             app:collapsedTitleTextAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse"
             app:expandedTitleTextAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse"
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
@@ -52,7 +54,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="?actionBarSize"
                 app:layout_collapseMode="pin"
-                app:contentInsetStart="56dp"
+                app:contentInsetStart="@dimen/padding_56dp"
                 app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
             </androidx.appcompat.widget.Toolbar>
 
@@ -65,29 +67,10 @@
         android:layout_height="match_parent"
         android:clipToPadding="false"
         android:paddingLeft="@dimen/list_side_margin"
-        android:paddingTop="16dp"
+        android:paddingTop="@dimen/padding_16dp"
         android:paddingRight="@dimen/list_side_margin"
-        android:paddingBottom="28dp"
+        android:paddingBottom="@dimen/padding_28dp"
         android:scrollbarStyle="outsideOverlay"
         app:layout_behavior="@string/appbar_scrolling_view_behavior" />
-
-<!--    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout-->
-<!--        android:id="@+id/swipe_refresh_layout"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="match_parent">-->
-
-<!--       -->
-
-<!--    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>-->
-
-<!--    <FrameLayout-->
-<!--        android:id="@+id/toolbar_container"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="112dp"-->
-<!--        android:background="?colorPrimary"-->
-<!--        android:elevation="8dp">-->
-
-
-<!--    </FrameLayout>-->
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
