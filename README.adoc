@@ -7,3 +7,5 @@ This repository stores code for the XYZ Reader project in Udacity's Android Nano
 * Udpate theme - AppCompat      
 * Libaray - Material Design 
  
+ ## Screen Shot
+ ![Screenshot_1594178204](https://user-images.githubusercontent.com/22949430/86874590-46041c00-c0a6-11ea-8590-e6bb4a756ecb.png)
