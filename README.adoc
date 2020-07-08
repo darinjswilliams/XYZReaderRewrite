@@ -8,3 +8,4 @@ This repository stores code for the XYZ Reader project in Udacity's Android Nano
 * Libaray - Material Design  
                                  
 
+![](images/Screenshot_1594178459.png)
