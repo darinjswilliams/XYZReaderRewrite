@@ -1,3 +1,4 @@
+
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -5,9 +6,7 @@
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/pager"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
-
-
+        android:layout_height="match_parent">
 
     </androidx.viewpager.widget.ViewPager>
 
@@ -17,6 +16,10 @@
         android:layout_width="match_parent"
         android:layout_height="?actionBarSize">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
         <ImageButton
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
             android:id="@+id/action_up"
@@ -26,5 +29,17 @@
             android:contentDescription="@string/up"
             android:src="@drawable/ic_arrow_back" />
 
+            <TextView
+                android:id="@+id/textview_uparrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textColor="@color/white"
+                android:textSize="@dimen/appbar_title_text_size"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
     </FrameLayout>
+
+
 </FrameLayout>
