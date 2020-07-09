@@ -5,6 +5,4 @@ This repository stores code for the XYZ Reader project in Udacity's Android Nano
 
 * Custom fonts - Roboto         
 * Udpate theme - AppCompat      
-* Libaray - Material Design  
-                                 
-
+* Libaray - Material Design
